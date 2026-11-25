@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ember &amp; Thyme — Bistro Rush</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #241708; height: 100%; }
+  body { display: flex; align-items: center; justify-content: center; min-height: 100vh; }
+  #wrap { width: 1280px; max-width: 100vw; }
+  canvas { display: block; width: 100%; height: auto; background: #e9c9a0; }
+  #foot { color: #c9b89a; font: 13px "Trebuchet MS", Verdana, sans-serif; text-align: center; padding: 8px 0 0; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="800"></canvas>
+  <div id="foot">Ember &amp; Thyme — Bistro Rush · WASD / arrows to move · E to use a station (hold E to chop) · click a station to walk there · M to mute</div>
+</div>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
